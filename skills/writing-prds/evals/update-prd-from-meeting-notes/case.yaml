@@ -1,0 +1,14 @@
+schema_version: "1.1"
+name: update-prd-from-meeting-notes
+expected_outcome: |
+  The PRD in car-prd reflects the five meeting items as the current truth. The booking limit
+  is 5 days everywhere it appears (flow, module table, module page, examples, acceptance
+  criteria). Decision D-02 is moved to the decided table with the photo requirement, and the
+  return page describes the photo. A new function point for cancelling within 24 hours is in
+  the module table and the booking module page, with special cases and acceptance criteria.
+  The schedule shows stage two accepted on 12/09-12/10 and released on 12/11. Calendar sync
+  is recorded as an open decision and is not written into the scope. The revision table has a
+  new top row, version 0.3, by 周品安, that says what changed. Old statements are replaced, not
+  struck through or stacked under an "update" note.
+context:
+  scaffold_script: place-files.sh

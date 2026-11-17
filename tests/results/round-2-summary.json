@@ -1,0 +1,274 @@
+{
+ "new-prd-from-short-brief/with_skill": [
+  {
+   "marks": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "tokens": 213506,
+   "seconds": 590.0,
+   "cost": 4.818261799999999,
+   "skill_opened": true,
+   "helpers": 1
+  },
+  {
+   "marks": [
+    true,
+    true,
+    true,
+    false,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    false
+   ],
+   "tokens": 207282,
+   "seconds": 609.2,
+   "cost": 4.734186800000001,
+   "skill_opened": true,
+   "helpers": 1
+  }
+ ],
+ "new-prd-from-short-brief/without_skill": [
+  {
+   "marks": [
+    false,
+    true,
+    false,
+    false,
+    true,
+    true,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "tokens": 22032,
+   "seconds": 40.6,
+   "cost": 0.4837546,
+   "skill_opened": false,
+   "helpers": 0
+  },
+  {
+   "marks": [
+    false,
+    false,
+    false,
+    false,
+    true,
+    true,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "tokens": 25495,
+   "seconds": 77.2,
+   "cost": 0.6033098,
+   "skill_opened": false,
+   "helpers": 0
+  }
+ ],
+ "update-prd-from-meeting-notes/with_skill": [
+  {
+   "marks": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    false,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "tokens": 214986,
+   "seconds": 550.2,
+   "cost": 4.5457111999999995,
+   "skill_opened": true,
+   "helpers": 2
+  },
+  {
+   "marks": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "tokens": 162037,
+   "seconds": 389.4,
+   "cost": 3.3711993999999996,
+   "skill_opened": true,
+   "helpers": 1
+  }
+ ],
+ "update-prd-from-meeting-notes/without_skill": [
+  {
+   "marks": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    false,
+    false,
+    false,
+    true,
+    false,
+    true
+   ],
+   "tokens": 53039,
+   "seconds": 109.4,
+   "cost": 1.19993,
+   "skill_opened": false,
+   "helpers": 0
+  },
+  {
+   "marks": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    false,
+    false,
+    false,
+    true,
+    false,
+    true
+   ],
+   "tokens": 48672,
+   "seconds": 111.1,
+   "cost": 1.1099834000000002,
+   "skill_opened": false,
+   "helpers": 0
+  }
+ ],
+ "existing-system-to-spec/with_skill": [
+  {
+   "marks": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "tokens": 203502,
+   "seconds": 524.6,
+   "cost": 4.4401904000000005,
+   "skill_opened": true,
+   "helpers": 1
+  },
+  {
+   "marks": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    false
+   ],
+   "tokens": 213331,
+   "seconds": 592.4,
+   "cost": 4.8070488000000005,
+   "skill_opened": true,
+   "helpers": 1
+  }
+ ],
+ "existing-system-to-spec/without_skill": [
+  {
+   "marks": [
+    true,
+    true,
+    true,
+    true,
+    false,
+    true,
+    true,
+    true,
+    false,
+    false,
+    false,
+    false
+   ],
+   "tokens": 30523,
+   "seconds": 89.6,
+   "cost": 0.7121132,
+   "skill_opened": false,
+   "helpers": 0
+  },
+  {
+   "marks": [
+    true,
+    true,
+    true,
+    true,
+    false,
+    true,
+    true,
+    true,
+    false,
+    false,
+    true,
+    false
+   ],
+   "tokens": 28566,
+   "seconds": 81.9,
+   "cost": 0.6662556000000001,
+   "skill_opened": false,
+   "helpers": 0
+  }
+ ]
+}

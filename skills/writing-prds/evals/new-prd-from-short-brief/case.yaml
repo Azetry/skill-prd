@@ -1,0 +1,12 @@
+schema_version: "1.1"
+name: new-prd-from-short-brief
+expected_outcome: |
+  A PRD folder lab-prd with the four-part skeleton: a home page, a revision table whose first
+  row names 陳以安, Part 1 on why (current situation, goals, pain points per role), Part 2 on
+  how (the three roles 成員, PI and 助理, a flow, a module table, one page per module with
+  numbered screen notes, special cases and acceptance criteria). Facts the prompt does not
+  give (head count, hours spent each week, amounts, deadlines, budget rules) are not invented:
+  they are marked as waiting for confirmation or as labelled assumptions, and the final
+  message lists the questions for the user, a few at a time, each with a suggested answer.
+  Integration with the university purchasing system is listed as out of scope. The checker
+  reports no must-fix item.

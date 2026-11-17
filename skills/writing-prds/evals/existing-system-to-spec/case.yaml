@@ -1,0 +1,14 @@
+schema_version: "1.1"
+name: existing-system-to-spec
+expected_outcome: |
+  A PRD folder visitor-prd that describes the system as it runs today, taken from the code
+  where the code and the manual disagree. Existing functions (register a visitor in advance,
+  see and cancel one's own visitors, the front desk marking arrival with a badge number and
+  departure, the monthly CSV export) are marked as live; only the 18:00 reminder is marked as
+  new. The three disagreements between manual and code are pointed out rather than silently
+  resolved: the limit is 14 days in code and 7 in the manual; the manual says an e-mail is
+  sent on arrival but the code sends none; the manual says the front desk can export but the
+  code allows only administrators. notes/intake.md lists both sources and how far each can be
+  trusted. Nothing is described that neither source supports. The revision table names 吳采潔.
+context:
+  scaffold_script: place-files.sh

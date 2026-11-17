@@ -1,0 +1,9 @@
+{
+  "name": "{{NAME}}",
+  "short": "{{SHORT}}",
+  "roles": {
+    "planner": {"model": "fable", "effort": "high"},
+    "reviewer": {"model": "fable", "effort": "high"},
+    "implementer": {"model": "opus", "effort": "xhigh"}
+  }
+}

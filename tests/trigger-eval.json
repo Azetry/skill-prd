@@ -1,0 +1,82 @@
+[
+ {
+  "query": "我們要做一個內部的請購系統，老闆要我下週一前把需求整理成文件給兩位後端估時程。現在手上只有上週會議的逐字稿（docs/meeting-1105.md）和一張白板照片。幫我寫成正式的需求文件，要有角色、流程、每個模組怎樣算做完",
+  "should_trigger": true
+ },
+ {
+  "query": "expense-prd 那份文件，昨天跟會計開會決定請假單要多一個「代理人」欄位，特休結算改成 1 月發。幫我更新進去，修訂紀錄也要記",
+  "should_trigger": true
+ },
+ {
+  "query": "payroll-system 這個 repo 當初沒寫規格，新同事下週一報到。幫我照現在的程式把有哪些功能、誰能做什麼整理成一份規格書，放在 docs/prd",
+  "should_trigger": true
+ },
+ {
+  "query": "2.3 那個模組的驗收條件寫得太籠統，QA 說沒辦法照著測。幫我重寫，要寫到看得出過或不過",
+  "should_trigger": true
+ },
+ {
+  "query": "can you draft a product spec for the GPU rental dashboard? audience is our 2 backend engineers. need user roles, main flows, a module table with priorities and acceptance criteria per module. my notes are in notes/kickoff.md",
+  "should_trigger": true
+ },
+ {
+  "query": "客戶是連鎖診所，要我們報價一個掛號小程式。我需要一份給客戶簽名確認的需求規格，範圍、時程、之後改需求怎麼算都要寫清楚",
+  "should_trigger": true
+ },
+ {
+  "query": "功能模組表幫我加一個「通知」模組，優先級 P1，對應的模組頁也開出來，先放三個功能點：到貨通知、退回通知、逾期提醒",
+  "should_trigger": true
+ },
+ {
+  "query": "下面是我跟 PM 在 slack 上的討論串（很亂）。幫我整理成需求文件裡「背景與目標」那一段，痛點要分角色寫，數字沒有的先標假設\n\n阿哲：客服那邊又在抱怨退款單，每張都要開三個系統對資料\n小芸：對 而且主管核准只能在公司電腦按，他出差就卡三四天\n阿哲：上個月大概兩百多張吧 我沒有確切數字\n小芸：客人最不爽的是不知道退到哪了 一直打來問\n阿哲：那我們先做一個頁面把三邊資料併在一起？核准能用手機按\n小芸：可以 但財務那邊說對帳格式不能動",
+  "should_trigger": true
+ },
+ {
+  "query": "prd 的時程那頁要改，階段二往後延一週。還有上次列的兩件要老闆決定的事他回了，都選 A，幫我一起更新",
+  "should_trigger": true
+ },
+ {
+  "query": "我想先把想法寫清楚再開工：幫 billing-api 加一個用量超過門檻自動寄信的功能。先不要寫 code，出一份 spec 讓我跟同事對，要寫清楚不做什麼",
+  "should_trigger": true
+ },
+ {
+  "query": "幫我看 expense-prd 的 2.4 節，請假時數現在是怎麼算的？我只是要回同事的問題，不用改文件",
+  "should_trigger": false
+ },
+ {
+  "query": "把這份 PRD 做成 10 頁的簡報，明天要跟投資人報告，重點放在市場和時程",
+  "should_trigger": false
+ },
+ {
+  "query": "幫我寫用量通知這個功能的技術設計：資料表 schema、排程怎麼跑、sequence diagram、失敗重試和錯誤碼",
+  "should_trigger": false
+ },
+ {
+  "query": "幫 console-ui 寫 README，說明怎麼安裝、怎麼在本機跑、怎麼跑測試",
+  "should_trigger": false
+ },
+ {
+  "query": "照 PRD 2.2 的四條驗收條件，幫我在 tests/test_booking.py 寫 pytest，一條一個測試",
+  "should_trigger": false
+ },
+ {
+  "query": "這是上週五會議的錄音逐字稿，幫我整理成會議紀錄：出席的人、每項決議、誰負責、期限",
+  "should_trigger": false
+ },
+ {
+  "query": "寫一份給老闆看的兩頁說明，講為什麼報帳流程要改、要花幾天、他要決定哪三件事。不要太技術",
+  "should_trigger": false
+ },
+ {
+  "query": "幫我做競品分析，比較 Notion、Coda、Confluence 三家的權限模型，最後給我們該學哪一家的建議",
+  "should_trigger": false
+ },
+ {
+  "query": "請假單送出之後時數顯示 0，staging 上可以重現。幫我找原因，應該是 leave/services.py 那邊",
+  "should_trigger": false
+ },
+ {
+  "query": "epic 是通知中心，幫我拆成 Jira 的 user story，一張一張列出來，每張要有 story points 的建議",
+  "should_trigger": false
+ }
+]

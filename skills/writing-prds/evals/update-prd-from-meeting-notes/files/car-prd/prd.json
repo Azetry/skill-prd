@@ -1,0 +1,18 @@
+{
+  "name": "公務車借用 產品需求文件",
+  "short": "公務車借用 PRD",
+  "roles": {
+    "planner": {
+      "model": "fable",
+      "effort": "high"
+    },
+    "reviewer": {
+      "model": "fable",
+      "effort": "high"
+    },
+    "implementer": {
+      "model": "opus",
+      "effort": "xhigh"
+    }
+  }
+}
